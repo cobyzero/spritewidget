@@ -83,7 +83,7 @@ class Sprite extends NodeWithSize with SpritePaint {
 
 /// Defines properties, such as [opacity] and [blendMode] that are shared
 /// between [Node]s that render textures to screen.
-abstract class SpritePaint {
+mixin SpritePaint {
   double _opacity = 1.0;
 
   /// The opacity of the sprite in the range 0.0 to 1.0.
